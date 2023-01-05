@@ -1,0 +1,95 @@
+.main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.show_detail_current-previous{
+    width: 100%;
+}
+
+
+.Notification-Title{
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.Notification-Title button{
+    margin-top: 10px;
+}
+
+
+.img-thumbnail{
+    width: 200px;
+    height: 100%;
+}
+
+.Notification_images{
+    gap: 30px;
+}
+
+.Update_Request{
+    font-size: 12px;
+}
+
+.Notification_View_Details_Btn{
+    border-radius: 5px;
+}
+
+
+
+
+
+@media screen and (min-width: 1200px) {
+    .screen_full_size {
+        margin-left: 78%;
+      
+    }
+  }
+
+
+  @media screen and (max-width: 500px) {
+
+    .Notification_images{
+       display: flex;
+       flex-direction: column;
+       width: 80%;
+       margin: 0 auto;
+    }
+   
+
+  
+
+    .Notification-Title{
+        font-size: 18px;
+    }
+  }
+
+
+  @media screen and (min-width: 400px ) {
+    .DropDown_Notification{
+        right: -42px !important;
+        margin-top: 12px !important;
+        width: 363px;
+
+    }
+ 
+
+ 
+  }
+
+
+  @media screen and (min-width: 350px ) {
+    .DropDown_Notification{
+        right: -40px !important;
+        margin-top: 12px !important;
+        width: 363px;
+
+    }
+ 
+
+ 
+  }
+
+
+ 

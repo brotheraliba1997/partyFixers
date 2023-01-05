@@ -1,0 +1,13 @@
+/* .mainInvoice{
+    width: 96%;
+ 
+    margin: 2% 2%;
+} */
+
+.detailInvoice>div >p{
+    font-size: 14px;
+    line-height: 0.7
+}
+.detailInvoice>div >p>span{
+    font-weight: bold;
+}
